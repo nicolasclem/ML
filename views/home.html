@@ -10,13 +10,14 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 <link rel="stylesheet"
 href="​https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css​">
-<link rel="stylesheet" href="normalize.css" >
+<link rel="stylesheet" href="/cc/normalize.css" >
 <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
     <header>
         <section>
-           <figure class="logo"><img src="/images/logo-mercado-liebre.svg" alt="Aquí va el logo" width="70%"></figure> 
+            <div class="top-bar">
+           <figure class="logo"><img src="/images/logo-mercado-liebre.svg" alt="Aquí va el logo" width="75%"></figure> 
            <article class="barraBusqueda"><nav class="navbar navbar-light bg-light">
             <div class="container-fluid">
               <form class="d-flex">
@@ -24,16 +25,20 @@ href="​https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.
                 <button class="btn btn-outline-success" type="submit"><i class="fas fa-search"></i></button>
               </form>
             </div>
-          </nav></article><br>
+          </nav></article>
            <div class="formasPago"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</div>
+        </div>
+        
            <nav class="SiteLogin">
-               <ul>
+               <ul class="primer-bar">
                    <li><a href=#>Ofertas</a></li>
                    <li><a href=#>Tiendas Oficiales</a></li>
                    <li><a href=#>Vender</a></li>
-                   <LI><a href=#>Ayuda</a></LI><br>
+                   <li><a href=#>Ayuda</a></li>
+                </ul>
 
-                   <li><a href=#>Creá tu cuenta</a><i class="far fa-id-card"></i></li>
+                <ul class="segunda-bar">
+                   <li><a href=# >Creá tu cuenta</a><i class="far fa-id-card"></i></li>
                    <li><a href=#>Ingresá</a><i class="fas fa-sign-in-alt"></i></li>
                    <li><a href=#>Mis compras</a><i class="fas fa-shopping-basket"></i></li>
                 </ul>
@@ -41,9 +46,9 @@ href="​https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.
                
 
         
-        <div class="burger-menu">
-            <i class="fa fa-bars burger"></i>
-         </div>  
+        <div  class="burger-menu">
+          <a href=# > <i class="fa fa-bars burger"></i></a>
+        </div>  
          
          
         </section>
