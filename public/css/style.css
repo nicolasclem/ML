@@ -1,15 +1,17 @@
 *{
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
-}
+ }
 header{
     background-color:  #EAC926;
-    padding-bottom: 10px;
+    width:90%;
     
 }
 body {
 background-color: #ebebeb;
 font-family: 'Roboto';
-font-size: 12px;
+font-size: 10px;
 }
 h2{
     font-size: 24px;
@@ -27,7 +29,7 @@ nav ul li  {
 }
 nav ul li a {
     text-decoration: none;
-    display: inline-block;    
+    display:inline-block;
     padding: 5px 0px;
    
    
@@ -62,7 +64,7 @@ ul li i{
     width: 35px;
     padding: 3px;
     border-radius: 4px;
-
+                
 }
 .barraBusqueda{
     
@@ -88,6 +90,7 @@ article i{
 article{
     text-align: center;
     background-color: white;
+    position: relative;
 }
 .derechos{
     color: #666;
@@ -96,7 +99,7 @@ article{
 
 footer{
     background-color: white;
-    width:90%;
+   width:90%;
     margin-top:10px ;
 }
 
@@ -128,15 +131,28 @@ main{
 .detalle{
     border-top: solid 1px #ebebeb;
     padding: 15px;
-    text-align: left;;
+    text-align: left;
+    position: relative;
 }
 div i{
     color:#39b54a;
 }
-.iconEnvio{
-    padding: 0px 10px 10px 6px;
+  /* .iconEnvio{ padding: 0px 10px 10px 6px;
     border:solid 1px #39b54a;
-    border-radius: 100%;
+    border-radius: 100%;}*/
+main section article i{
+ display: block;
+ font-size: 16px;
+ padding: 5px;
+ width: 30px;
+ height: 30px;
+ border: 1px solid #39b54a;
+ background-color: #FFF;
+ border-radius: 50%;
+ position: absolute;
+ right: 20px;
+ top: -15px;
+
     
 }
 button i{
@@ -185,8 +201,10 @@ button i{
         display: flex;
         
     }   
+    
+
+    }
   
-}
 
 
 
@@ -212,9 +230,11 @@ button i{
         display:flex;
         justify-content: space-around;
         align-items: center;
+       
     }
     .SiteLogin ul{
         display: flex;
+            
         
     }   
     
