@@ -22,15 +22,14 @@ h2{
 }
 nav ul li  {
     list-style-type: none; 
-    text-align:left ;
-    margin: auto;
-    padding-right: 4px;
+    text-align:left ;    
+    padding-right: 2px;
   
 }
 nav ul li a {
     text-decoration: none;
-    display:inline-block;
-    padding: 5px 0px;
+   
+    padding: 2px;
    
    
 }
@@ -55,8 +54,7 @@ ul li i{
 .burger-menu{  
     
     text-align: center;
-   
-   
+  
  }
 .burger-menu i{
     color:#ebebeb;
@@ -64,6 +62,7 @@ ul li i{
     width: 35px;
     padding: 3px;
     border-radius: 4px;
+    margin-bottom: 15px;
                 
 }
 .barraBusqueda{
@@ -77,7 +76,7 @@ ul li i{
 }
 .formasPago{
     text-align: center;
-    padding-top: 20px;
+    padding: 20px 0px 20px 0;
 }
 .formasPago i{
     color: black;
@@ -159,6 +158,18 @@ button i{
     color: black;
 }
 
+.SiteLogin{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    
+   }
+   .SiteLogin ul{
+    display: flex;
+    
+    
+}  
+
 @media(max-width:360px){
     .descripcion{
         display: none;
@@ -171,6 +182,9 @@ button i{
    }
    .logo{
        margin:auto;
+   }
+   .formasPago{
+       font-size: 14px;
    }
 }
 
@@ -189,21 +203,26 @@ button i{
     .top-bar{
         display:flex;
         justify-content:space-around;
-        align-items: center
-    }
+        align-items: center;
+      
+        }
     .SiteLogin{
         display:flex;
         justify-content: space-around;
         align-items: center;
-        font-size: 10px;
+        
        }
        .SiteLogin ul{
         display: flex;
+        font-size: 10px;
+       
         
     }   
-    
-
+    .segunda-bar li a i{
+        display: none;
     }
+
+}
   
 
 
@@ -234,6 +253,8 @@ button i{
     }
     .SiteLogin ul{
         display: flex;
+        font-size: 13px;
+        
             
         
     }   
