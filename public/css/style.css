@@ -125,7 +125,9 @@ main{
     
 }
 .producto{
-    margin-bottom: 10px;
+    
+    margin: 3px;
+
 }
 .detalle{
     border-top: solid 1px #ebebeb;
@@ -186,11 +188,15 @@ button i{
    .formasPago{
        font-size: 14px;
    }
+  
 }
 
 @media(min-width :361px){
     .producto{
-    box-shadow:0px 0px 10px rgb(100, 100, 100);;
+    box-shadow:0px 0px 10px rgb(100, 100, 100);
+     width: 42.5%;
+     margin:5px;
+    
     }
     .burger-menu i{
         display: none;;
@@ -221,7 +227,14 @@ button i{
     .segunda-bar li a i{
         display: none;
     }
-
+    .vistas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+           
+    }
+    
+  
 }
   
 
@@ -229,7 +242,9 @@ button i{
 
 @media(min-width :769px){
     .producto{
-        box-shadow:0px 0px 10px rgb(100, 100, 100);;
+        box-shadow:0px 0px 10px rgb(100, 100, 100);
+        width: 22%;
+        margin:2PX
         }
     .burger-menu i{
         display: none;;
@@ -259,7 +274,11 @@ button i{
         
     }   
     
-    
-  
+    .vistas{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap:nowrap;
+    }
+   
   
 }
