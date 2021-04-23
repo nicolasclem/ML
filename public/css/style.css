@@ -20,14 +20,18 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px;
+    
+    flex-wrap: nowrap;
    
 }
 .logo{   
-   width: 50%;
+   width: 30%;
+}
+.barraBusqueda{
+    width: 30%;
 }
 .formasPago{
-    width: 50%;
+    width:30%;
     font-size: 14px;
 }
 nav ul li  {
@@ -39,8 +43,7 @@ nav ul li  {
 nav ul li a {
     text-decoration: none;
    
-    padding: 2px;
-   
+    padding: 2px; 
    
 }
 
@@ -114,9 +117,7 @@ footer section{
     padding-top: 4px;
 }
 
-figure{
-    margin: center;
-}
+
 
 main{
     text-align: center;
@@ -173,6 +174,7 @@ button i{
 } 
 @media(max-width:360px){
   
+  
     .descripcion{
         display: none;
     }
@@ -210,9 +212,7 @@ button i{
        
         
     }   
-    .segunda-bar li a i{
-        display: none;
-    }
+    
     .vistas{
         display: flex;
         justify-content: space-between;
