@@ -15,14 +15,22 @@ href="​https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.
 </head>
 <body>
     <header>
-        <section>
+        <section class="arriba">
             <div class="top-bar">
-           <div class="logo"><img src="/images/logo-mercado-liebre.svg" alt="Aquí va el logo" width="100%"></div> 
+           <div class="logo">
+               <a href="/"><img src="/images/logo-mercado-liebre.svg" alt="Aquí va el logo" ></a>
+            </div> 
 
 
-           <div class="barraBusqueda">BARRA DE BUSQUEDA</div>
+           <div class="barraBusqueda">
+                        
+                <input class="buscador" type="search"  placeholder="Buscar Productos, marcas" /><button class="icon">
+                <i class="fas fa-search"></i></button>
+
+            
+          </div>
          
-           <div class="formasPago"><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</div>
+           <div class="formasPago" ><i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de crédito</div>
         </div>
         
            <nav class="SiteLogin">
@@ -34,8 +42,8 @@ href="​https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.
                 </ul>
 
                 <ul class="segunda-bar">
-                   <li><a href=# >Creá tu cuenta </a></li><i class="far fa-id-card"></i>
-                   <li><a href=#>Ingresá</a></li><i class="fas fa-sign-in-alt"></i>
+                   <li><a href="./register" >Creá tu cuenta </a></li><i class="far fa-id-card"></i>
+                   <li><a href="./login">Ingresá</a></li><i class="fas fa-sign-in-alt"></i>
                    <li><a href=#>Mis compras</a></li><i class="fas fa-shopping-basket"></i>
                 </ul>
            </nav>
