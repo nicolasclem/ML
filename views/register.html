@@ -57,69 +57,87 @@
         </section>
      </header>
      <main>
+         <div class="registro">
         <form action="/register" method="GET">
-        <div>
+        <div class="dato">
             <label for="Nombre y apellido"></label>
             <input type="text" placeholder="Nombre y apellido">
         </div>
-        <div>
+        <div class="dato">
             <label for="Nombre de usuari@"></label>
             <input type="text"placeholder="Nombre de usuari@">
         </div>
-        <div>
+        <div class="dato">
             <label for="email"></label>
             <input type="email"placeholder="E-mail">
         </div>
+        <p>Fecha de nacimiento</p>
         <div>
-            <p>Fecha de nacimiento</p>
+            
             <label for="Fecha de nacimiento"></label>
-            <input type="date" name="Fecha de nacimiento">
+            <input class="date" type="date" name="Fecha de nacimiento">
         </div>
-        <div>
+        <p>Domicilio</p>
+        <div class="dato">
             <label for="Domicilio"></label>
             <input type="text" placeholder="Domicilio">
         </div>
        
             <p>Perfil del usario</p>
-        <div>  
-            <input type="radio" media="Perfil del usuario" value="comprar" > 
+        <div class="perfil">  
+            <input type="radio" name="Perfil del usuario" value="comprar" > 
             <label for="Perfil del usuario">Comprar</label>
-            <input type="radio" media="Perfil del usuario" value="vender" >  
+            <input type="radio"name="Perfil del usuario" value="vender" >  
                 <label for="Perfil del usuario">Vender</label>           
         </div>
-        
-        <div>
-            <p>Categorías de interés</p>
+        <p>Categorías de interés</p>
+        <div class="interes">
             
-            <input type="checkbox" name="Categorías de interés" value="Electro"><label for="Categorías de interés">Electro</label>
-            <input type="checkbox" name="Categorías de interés" value="Moda"><label for="Categorías de interés">Moda</label>
-            <input type="checkbox" name="Categorías de interés" value="Hogar"><label for="Categorías de interés">Hogar</label>
-            <input type="checkbox" name="Categorías de interés" value="Juguetería"><label for="Categorías de interés">Juguetería</label>
-            <input type="checkbox" name="Categorías de interés" value=" Vida sana"><label for="Categorías de interés">Vida sana</label>
+            
+        <div>
+            <input type="checkbox" name="Categorías de interés" value="Electro">
+            <label for="Categorías de interés">Electro</label>
+        </div>
+            <div>
+                <input type="checkbox" name="Categorías de interés" value="Moda">
+            <label for="Categorías de interés">Moda</label>
         </div>
         <div>
-            <label for="Foto de usuario">Foto de usuario</label>
-            <input type="file">
+            <input type="checkbox" name="Categorías de interés" value="Hogar">
+            <label for="Categorías de interés">Hogar</label>
         </div>
         <div>
+            <input type="checkbox" name="Categorías de interés" value="Juguetería">
+            <label for="Categorías de interés">Juguetería</label>
+        </div>
+        <div>
+            <input type="checkbox" name="Categorías de interés" value=" Vida sana">
+            <label for="Categorías de interés">Vida sana</label>
+        </div>
+        </div>
+              
+       <div class="foto-container">
             
+        <label class="foto">Añadir foto<i class="fas fa-camera"></i><input type="file"></label>
+        </div>
+        <div class="dato">            
             <input type="password" placeholder="contraseña">
         </div>
-        <div>
+        <div class="dato">
             
             <input type="password" placeholder="Confirmar contraseña">
         </div>
-        <div>
+        <div class="boton">
          
             <input type="button" name="enviar" value="Enviar">
         </div>
-        <div>
+        <div class="boton">
            
             <input type="button" name="borrar" value="Borrar">
         </div>
         
     </form>
-        
+    </div>   
     </main>
      <footer>
         <div class="pie"><i class="fas fa-credit-card"></i></div>
