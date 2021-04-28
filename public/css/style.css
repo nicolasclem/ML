@@ -15,6 +15,7 @@ font-size: 10px;
 }
 h2{
     font-size: 24px;
+    margin:12px
 }
 
 .top-bar{
@@ -143,6 +144,8 @@ main{
     padding: 15px;
     text-align: left;
     position: relative;
+    transition: all 1.5s;
+
 }
 div i{
     color:#39b54a;
@@ -183,7 +186,7 @@ button i{
 } 
 
 .derechos{
-    margin-top: 8px;
+    margin-top:30px;
 }
 
 
@@ -229,11 +232,13 @@ button i{
 }
 
 .boton input{
-    background-color: #1a93eb;
-    color: white;
+    background-color: #60afe7;
+    color: rgb(66, 65, 65);
     width: 50%;
     margin: 8px;
     border-radius: 10px;
+    transition: all 600ms;
+    
  
 }
 .foto input{
@@ -278,11 +283,13 @@ button i{
 .boton-login input{
     padding:8px;
     width:50%;
-    background-color: #1a93eb;
-    color: white;
+    background-color: #60afe7;
+    color: rgb(66, 65, 65);
     border-radius: 10px;
     font-size: 16px;
     margin:25px 5px 25px 5px;
+    transition: all 600ms;
+    
 }
 .foto-container span{
     font-size: 14px;
@@ -297,8 +304,8 @@ button i{
 @media(max-width:360px){
     .producto{
         box-shadow:0px 0px 10px rgb(100, 100, 100);
-        margin:2px;
-        
+        margin:auto;
+        width: 80% ;        
         }
   
     .descripcion{
@@ -325,12 +332,40 @@ button i{
 }
 
 @media(min-width :361px){
-    .producto{
-    box-shadow:0px 0px 10px rgb(100, 100, 100);
+    .producto {
+     box-shadow:0px 0px 10px rgb(100, 100, 100);
      width: 42.5%;
-     margin:5px;
-    
+     margin:auto;
+     
     }
+    
+    .producto:hover .detalle{
+        color:#1ea30a;
+        background-color: rgb(15, 15, 15);
+        opacity: 0.6;
+       
+
+    }
+    .producto:hover .descuento{
+        color:white;
+    }
+    .producto:hover .descripcion{
+     display: none;
+     
+    }
+    .iconEnvio i{
+      
+       transition: all 450ms;
+
+    } 
+     
+    .producto:hover .iconEnvio i{
+        transform: rotate(-90deg);
+        
+    }
+
+    
+
     .burger-menu i{
         display: none;;
     }    
@@ -395,10 +430,41 @@ button i{
 
 @media(min-width :769px){
     .producto{
+        
         box-shadow:0px 0px 10px rgb(100, 100, 100);
         width: 22%;
-        margin:2PX
+        margin:auto;
+        
+        
+        
         }
+    .producto:hover .descuento{
+            color:white;
+        }
+    .producto:hover .detalle{
+
+        background-color: rgb(15, 15, 15);
+        opacity: 0.6;
+        color:#1ea30a;
+       
+
+
+    }
+    .producto:hover .descripcion{
+     display: none;
+
+     
+    }
+    .iconEnvio i{
+      
+       transition: all 450ms;
+
+    } 
+     
+    .producto:hover .iconEnvio i{
+        transform: rotate(-90deg);
+        
+    }
     .burger-menu i{
         display: none;;
     }  
@@ -484,5 +550,21 @@ button i{
 }
 .registro p{
     font-size: 18px;
+}
+footer{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.detalle-pie{
+    width:32%
+}
+.boton:hover input{
+    color: white;
+    background-color:#1a93eb ;
+}
+.boton-login:hover input{
+    color: white;
+    background-color:#1a93eb ;
 }
 }
