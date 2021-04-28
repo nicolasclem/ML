@@ -77,9 +77,13 @@ ul li i{
 .descripcion{
     font-size: 16px;
     padding: 10px;
+   display: none;
+   
     
 }
-
+.producto{
+ margin-top:5px;
+}
 .burger-menu{  
     
     text-align: center;
@@ -357,8 +361,8 @@ button i{
         color:white;
     }
     .producto:hover .descripcion{
-     display: none;
-     
+       display: none;
+
     }
     .iconEnvio i{
        
@@ -395,6 +399,7 @@ button i{
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
+        
           
     }
     .registro-login form{
@@ -442,7 +447,7 @@ button i{
 @media(min-width :769px){
     .producto{
         
-        box-shadow:0px 0px 10px rgb(100, 100, 100);
+        
         width: 22%;
         margin:auto;
         
@@ -461,8 +466,11 @@ button i{
 
 
     }
+    .producto:hover{
+        box-shadow:0px 0px 10px rgb(93, 143, 155);
+    }
     .producto:hover .descripcion{
-     display: none;
+     display: block;
 
      
     }
