@@ -66,14 +66,17 @@ ul li i{
 
 .precio{
     font-size: 18px;
+    padding: 10px;
 }
 .descuento{
     font-size: 16px;
     color:#39b54a;
+    padding: 10px;
 }
 
 .descripcion{
     font-size: 16px;
+    padding: 10px;
     
 }
 
@@ -127,9 +130,10 @@ footer section{
 }
 .pie i{
     color:#1259c3;
-    margin-left: 50%;
+    margin-left: 48%;
     font-size: 20px;
-    padding-top: 4px;
+    padding: 4px;
+    transition: all 1s;
 }
 
 
@@ -140,12 +144,15 @@ main{
     
 }
 .detalle{
+    display: flex;
     border-top: solid 1px #ebebeb;
     padding: 15px;
     text-align: left;
     position: relative;
     transition: all 1.5s;
-
+    justify-content:flex-start;
+    flex-wrap: wrap;
+    
 }
 div i{
     color:#39b54a;
@@ -179,7 +186,7 @@ button i{
     padding:15px;
     
    }
-   .SiteLogin ul{
+.SiteLogin ul{
     display: flex;
     padding: 10px;
       
@@ -354,13 +361,14 @@ button i{
      
     }
     .iconEnvio i{
-      
+       
        transition: all 450ms;
 
     } 
      
     .producto:hover .iconEnvio i{
         transform: rotate(-90deg);
+        
         
     }
 
@@ -425,6 +433,9 @@ button i{
 .registro p{
     font-size: 16px;
 }
+.detalle-pie:hover .pie i{
+    color: #1dd4ec;
+}
 }
   
 
@@ -455,14 +466,15 @@ button i{
 
      
     }
+    
     .iconEnvio i{
       
-       transition: all 450ms;
+       transition: all 2s;
 
     } 
      
     .producto:hover .iconEnvio i{
-        transform: rotate(-90deg);
+        transform: rotate(360deg);
         
     }
     .burger-menu i{
@@ -565,6 +577,9 @@ footer{
 }
 .boton-login:hover input{
     color: white;
-    background-color:#1a93eb ;
+    background-color:#0022AA ;
+}
+.detalle-pie:hover .pie i{
+    color: #1dd4ec;
 }
 }
