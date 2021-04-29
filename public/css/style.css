@@ -446,13 +446,10 @@ button i{
 
 @media(min-width :769px){
     .producto{
-        
-        
+              
         width: 22%;
         margin:auto;
-        
-        
-        
+         
         }
     .producto:hover .descuento{
             color:white;
@@ -467,7 +464,7 @@ button i{
 
     }
     .producto:hover{
-        box-shadow:0px 0px 10px rgb(93, 143, 155);
+        box-shadow:0px 0px 10px rgb(85, 158, 107);
     }
     .producto:hover .descripcion{
      display: block;
