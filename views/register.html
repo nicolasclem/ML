@@ -61,26 +61,26 @@
         <form action="/register" method="GET">
         <div >
             <label for="Nombre y apellido"></label>
-            <input class="dato" type="text" placeholder="Nombre y apellido">
+            <input class="dato" type="text" placeholder="Nombre y apellido" required pattern="^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)">
         </div>
         <div>
             <label for="Nombre de usuari@"></label>
-            <input class="dato"type="text"placeholder="Nombre de usuari@">
+            <input class="dato"type="text"placeholder="Nombre de usuari@" required >
         </div>
         <div >
             <label for="email"></label>
-            <input class="dato" type="email"placeholder="E-mail">
+            <input class="dato" type="email"placeholder="Ejemplo@mail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
         </div>
         <p>Fecha de nacimiento</p>
         <div>
             
             <label for="Fecha de nacimiento"></label>
-            <input class="date" type="date" name="Fecha de nacimiento">
+            <input class="date" type="date" name="Fecha de nacimiento"required>
         </div>
         <p>Domicilio</p>
         <div >
             <label for="Domicilio"></label>
-            <input class="dato" type="text" placeholder="Domicilio">
+            <input class="dato" type="text" placeholder="Domicilio"required>
         </div>
        
             <p>Perfil del usario</p>
@@ -121,15 +121,15 @@
         <label class="foto">Añadir foto<i class="fas fa-camera"></i><input type="file"></label>
         </div>
         <div>            
-            <input class="dato" type="password" placeholder="Contraseña">
+            <input class="dato" type="password" placeholder="Contraseña"required>
         </div>
         <div >
             
-            <input class="dato" type="password" placeholder="Confirmar Contraseña">
+            <input class="dato" type="password" placeholder="Confirmar Contraseña"required>
         </div>
         <div class="boton">
          
-             <input type="button" name="enviar" value="Enviar">
+             <input type="submit" name="enviar" value="Enviar">
         </div>
         <div class="boton">
            
