@@ -461,6 +461,15 @@ button i{
 .detalle-pie:hover .pie i{
     color: #1dd4ec;
 }
+
+footer{
+    display: flex;
+    padding: 15px;
+    flex-wrap: wrap;
+}
+.detalle-pie{
+    width:32%
+}
 }
   
 /*desktop*/
