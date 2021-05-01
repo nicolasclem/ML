@@ -60,7 +60,8 @@
          <div class="registro">
         <form action="/register" method="GET">
         <div >
-            <label for="Nombre y apellido"></label>
+
+            <label for="Nombre y apellido"></label><!--agrego tegex para validar campo-->
             <input class="dato" type="text" placeholder="Nombre y apellido" required pattern="^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)">
         </div>
         <div>
@@ -68,7 +69,7 @@
             <input class="dato"type="text"placeholder="Nombre de usuari@" required >
         </div>
         <div >
-            <label for="email"></label>
+            <label for="email"></label><!--agrego tegex para validar campo-->
             <input class="dato" type="email"placeholder="Ejemplo@mail.com" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
         </div>
         <p>Fecha de nacimiento</p>
@@ -118,7 +119,7 @@
               
        <div class="foto-container">
         <span> Agregar foto a su perfil</span>  
-        <label class="foto">Añadir foto<i class="fas fa-camera"></i><input type="file"></label>
+        <label class="foto">Añadir foto<i class="fas fa-camera"></i><input type="file"></label><!--oculto i en css-->
         </div>
         <div>            
             <input class="dato" type="password" placeholder="Contraseña"required>
